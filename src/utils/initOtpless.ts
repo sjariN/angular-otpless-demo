@@ -7,7 +7,7 @@ export function initOTPless(callback: Function): void {
       const script = document.createElement('script');
       script.src = 'https://otpless.com/v2/auth.js';
       script.id = 'otpless-sdk';
-      script.setAttribute('data-appid', 'YOUR_APP_ID');
+      script.setAttribute('data-appid', 'ELE1A4SMBKD4IASZZCRO');
       document.body.appendChild(script);
     };
 
